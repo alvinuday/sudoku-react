@@ -162,7 +162,9 @@ class SudokuGame extends Component {
   render() {
     return (
       <div className="Sudoku">
-        <h1 className="sudokuHeader">Sudoku!</h1>
+        <h1 className="sudokuHeader" style={{ textAlign: "center" }}>
+          Alvin's Sudoku!
+        </h1>
         <Board
           boardState={this.state.boardState}
           conflicts={this.state.conflicts}

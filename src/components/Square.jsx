@@ -20,7 +20,7 @@ class Square extends Component {
       if (this.props.editable) {
         style["background"] = "red";
       } else {
-        style["border"] = "1px solid red";
+        style["border"] = "3px solid red";
       }
     }
     return (
