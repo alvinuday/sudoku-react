@@ -29,7 +29,7 @@ class Board extends Component {
         );
         currentRow.push(currentSquare);
       }
-      board.push(<tr key={i > currentRow}></tr>);
+      board.push(<tr key={i}>{currentRow}</tr>);
     }
     return board;
   };

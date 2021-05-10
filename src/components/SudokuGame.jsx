@@ -99,7 +99,7 @@ class SudokuGame extends Component {
     const boxConflicts = this.flatten(this.getConflicts(Object.values(boxes)));
 
     const mergedConflicts = [...rowConflicts, ...colConflicts, ...boxConflicts];
-    this.setState({ conflicts: new Set([mergedConflicts]) });
+    this.setState({ conflicts: new Set(mergedConflicts) });
   };
 
   flatten = (a) => {
