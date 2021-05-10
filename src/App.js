@@ -1,23 +1,16 @@
-import logo from "./logo.svg";
-import "./App.css";
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>so the publishing works lol</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Sudoku bro lmao
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import Square from "./components/Square";
+import SudokuButtons from "./components/SudokuButtons";
+import Board from "./components/Board";
+import SudokuGame from "./components/SudokuGame";
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <SudokuGame />
+      </div>
+    );
+  }
 }
 
 export default App;

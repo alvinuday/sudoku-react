@@ -1,0 +1,16 @@
+.gameBtn {
+  margintop: 25;
+  marginleft: 18;
+  margin: 10;
+  width: 15%;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 10px black;
+  background-color: rgb(76, 195, 241);
+  color: white;
+}
+.gameBtn:hover {
+  cursor: pointer;
+}
