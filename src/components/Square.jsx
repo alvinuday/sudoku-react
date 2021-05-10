@@ -9,7 +9,7 @@ class Square extends Component {
     //styling borders
     const style = {};
     const ri = this.props.rowIndex;
-    const ci = this.props.colndex;
+    const ci = this.props.colIndex;
     if (ri > 0 && ri % 3 === 0) {
       style["borderTop"] = "2px solid black";
     }
